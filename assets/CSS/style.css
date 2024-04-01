@@ -1,0 +1,47 @@
+
+html {
+    height: 100%;
+    display: block;
+}
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+main {
+    margin-left: 20px;
+    width: 50%;
+ 
+}
+h1 {
+    text-align: end;
+    margin-right: 200px;
+}
+#right-content {
+    text-align: center;
+    float: right;
+}
+#left-content {
+    display: inline-block;
+    flex-direction: row;
+    width: 100%;
+    text-align: start;
+}
+.forecast-day {
+    border: double;
+    margin: 5px;
+    padding: 5px;
+}
+.row {
+    display: inline-block;
+    width: 50%;
+    
+}
+#your-single-city {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    border-style: double;
+    text-align: center;
+}
